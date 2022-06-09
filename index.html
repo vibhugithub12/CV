@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- CONTENTS IN THIS CODE:
+1. EMPHASIS(ITALICS)
+2. STRONG(BOLD)
+3. BACKGROUND COLOR AND FONT COLOR
+3. LISTS - ORDERED AND UNORDERED
+  (i). TYPE OF ORDER AND ORDER BEGINNING number
+4. ADDING AN IMAGE AND ALTERNATE TEXT
+  (i) web image
+ (ii) local image(device) which must be in the same folder as my website
+5. ADDING A HYPERTEXT i.e. LINK TO ANOTHER WEBPAGE.
+   (i)Jump to a heading in the same Page.
+  (ii)Jump to the top of the current page.
+(iii) Open the link in new page. Use target=_blank  like this : <a target="_blank" href="#"></a>
+ (iv)Directly open the mail app(use href="mailto: here email address") or calling app(use href="tel: here mobiile number")
+  (v)Add an icon for the link instead of text or along with text : <a href="#">img alt"alternate text for image" src="link or path of icon"></a>
+6. ADDING A TABLE IN HTML
+  (i). Making a simple table i.e organised
+ (ii). Adding border to a table or outline
+(iii). Using table to modify style of web page(like writing on the right side of the image).
+ (iv). Cellspacing - used to provide gap between cells(here image and font on the right side).
+  (v). Using table in table to design the website.
+7. Adding an emoji shortcut : Windows + .(fullstop)
+8. FORM IN HTML - More attributes used in the file form.html
+   Better form made in contact_details.html
+-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title >Vaibhav's Personal Site</title>
+</head>
+
+<body>
+ <!-- To add background color :-->
+  <body bgcolor="black">
+  <table cellspacing="20">
+    <tr>
+<td>  <img src="images/me.png" alt="Vaibhav's photo"<br /></td>
+<td>
+  <font color="White">
+<h1><strong>Vaibhav Chauhan</strong></h1>
+
+<!-- To add font color, use following syntax : -->
+
+Student at <strong><em>Chandigarh University</em></strong></p>
+
+<p>I am a student of <strong>CSE</strong>. I love to <strong>play football</strong>. </p></td>
+</font>
+    </tr>
+  </table>
+  <!-- Following is the syntax for uploading an image
+  <<img src=" link of the web image" alt="text to describe image just incase browser cannot display the image">
+    Below is an web image
+  <img src="https://pps.whatsapp.net/v/t61.24694-24/264236709_364653338935021_1261003245564050060_n.jpg?ccb=11-4&oh=01_AVyxmzZ1caIPh7hfbQm866oT-VR3dHsdt1j-BF0eHoCLfQ&oe=62A52B90" alt="Vaibhav's image" />
+-->
+  <!--Below is a local image-->
+
+  <!-- To change the  color of the font , use following syntax :-->
+  <font color="green">
+
+
+<a href="#End">Jump to Page End</a>
+  <hr />
+  <font color="brown">
+
+  <pr>Link to :<br>
+  </font>
+    <ol>
+      <!-- Below is the syntax to add a link in your code to another website or webpage:
+    <a href="link of the webpage">The word you want to make the link to be highlighted</a>-->
+      <li><strong><a target="_blank" href="practise.html">My practise website</a></strong></pr></li>
+<li><a target="_blank"href="https://www.linkedin.com/in/vaibhav-chauhan-4981a8220/">Linkedin</a></li>
+</ol>
+<hr>
+  <h3><font color="brown">Education</font></h3>
+  <ul> <!-- This is the syntax for unordered list-->
+  <p><li>Class 10 - GURU NANAK MISSION PUBLIC SCHOOL<br /></li><li>Class 12 - GURU NANAK MISSION PUBLIC SCHOOL</li>
+  <li>Graduation - B.E.(CSE) FROM CHANDIGARH University (2021-2025)</li></p>
+</ul>
+<hr>
+<h3><font color ="brown">
+
+My hobbies</font></h3>
+<ol type ="I" start='1'> <!-- This is the syntax for ordered list.-->
+    <!-- To use Roman numerals : <ol type"i"> </ol>
+    To start list with a particular number,use : <ol start="4"></ol>  -->
+
+  <li>Playing Football</li>
+  <li>Listening to music</li>
+  <li>Learning to program and code more</li>
+</ol>
+<hr>
+<h3><font color ="brown">Achievements</font></h3>
+
+<!-- Table can be added in HTML using the following syntax :
+<table >          To give outline to your table add border in the table heading like:
+  <thead>                    <table border="4"> This will give border of thickness 4.
+
+  </thead>
+  <tbody>
+
+  </tbody>
+  <tfoot>
+
+  </tfoot>
+</table>
+-->
+
+<table border="1" >
+  <thead>
+    <th>Achievements</th>
+    <th>Date</th>
+  </thead>
+  <tbody>
+
+  </tbody>
+  <tfoot>
+
+  </tfoot>
+  <tr>
+  <td>Class 12th - 94.8%</td>
+  <td>2021</td>
+</tr>
+  <tr>
+    <td>U-14 Football Nationals</td>
+    <td>2016-17</td>
+  </tr>
+</table>
+<hr>
+<h3><font color="brown">
+  Skills</h3></font>
+<table>
+  <tr>
+    <td><table border="1" cellspacing="10">
+      <tr>
+        <td><font color="grey">C language</td>
+          <td> 🌟🌟🌟☆☆</td>
+        </tr>
+          <tr>
+        <td><font color="grey">C++ </td>
+        <td>🌟🌟🌟☆☆</td>
+      </tr>
+
+    </table></td>
+
+    <td><table border="1" cellspacing="10">
+
+        <tr>
+        <td><font color="grey">HTML</td>
+        <td>🌟 ☆ ☆ ☆ ☆</td>
+      </tr>
+      <tr>
+        <td><font color="grey">Reasoning</td>
+        <td> 🌟🌟🌟🌟☆</td>
+      </tr>
+
+    </table></td>
+  </tr>
+</table>
+  </font>
+  <hr>
+<a target="_blank" href="contact_details.html"><h3 id="End">Click this <img alt"Call symbol" src="images\call_icon.jpg" />to contact me</h3></a><hr>
+<a href="#top">
+
+  <!-- CREATING A FORM IN A WEBSITE -->
+  <form class="" action="index.html" method="post">
+    <label>  Your Name </label>
+      <input type="" name="" value="">
+      <input type="color" name="" value=""><br>
+      <label>Do you want to Sign up to email list?</label>
+      <input type="checkbox" name="" value=""><br />
+      <label>Password</label>
+      <input type="password" name="" value="">
+    <input type="submit" name=""  />
+
+  </form>
+<br><br><br>Jump to Page Start</a>
+</body>
+
+</html>
